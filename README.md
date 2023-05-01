@@ -6,6 +6,7 @@
 
 ```
 pnpm i
+pnpm partytown
 pnpm dev
 ```
 

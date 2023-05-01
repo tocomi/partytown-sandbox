@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # partytown
-*/~partytown/debug/*
+*/~partytown/*
