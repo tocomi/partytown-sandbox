@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
-import { PartytownProvider } from './components';
+import { Partytown } from '@builder.io/partytown/react';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <PartytownProvider>
-      <App />
-    </PartytownProvider>
+    <Partytown debug={true} />
+    <App />
   </React.StrictMode>
 );
