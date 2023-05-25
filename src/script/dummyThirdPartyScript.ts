@@ -13,7 +13,7 @@ const executeHeavyJob = () => {
 };
 
 // ボタンが描画されるのを待つための簡易的な実装
-setTimeout(() => {
+window.addEventListener('load', () => {
   const incrementButton = document.getElementById('increment');
   if (!incrementButton) return;
 
@@ -23,4 +23,4 @@ setTimeout(() => {
     executeHeavyJob();
   });
   console.log('Click handler registered!');
-}, 500);
+});
