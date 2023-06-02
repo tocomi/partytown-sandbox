@@ -16,7 +16,7 @@ export const Clock = () => {
 
   return (
     <h1 style={{ width: 'fit-content', paddingLeft: 40 }}>
-      {dayjs(date).format('hh:mm:ss.SSS').slice(0, 10)}
+      {dayjs(date).format('HH:mm:ss.SSS').slice(0, 10)}
     </h1>
   );
 };
